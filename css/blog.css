@@ -7,6 +7,15 @@ body {
   margin-top: 1em
 }
 
+.list-autor {
+  list-style-type: none;
+  padding-left: 5px;
+  padding-bottom: 10px;
+}
+
+.list-autor-item {
+  padding: 5px;
+}
 
 @media (min-width: 992px) {
   body {
