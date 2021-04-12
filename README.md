@@ -5,7 +5,7 @@ para poder visualizar o meu blog pessoal
 [**clique aqui**](https://oh-netin.github.io/blog-pessoal/index.html) 
 
 ----------
-### Tecnologias utilizadas:
+### Tecnologias utilizadas :D
 
 ```
 - HTML
