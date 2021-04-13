@@ -3,35 +3,35 @@
     "title": "HTML5",
     "text": "No início da disciplina, nos foi mostrada a linguagem de marcação de hipertexto, o <b>HTML</b>. Foi mostrada desde a história dessa tecnologia, sua evolução de acordo com a evolução da internt, até chegarmos a prática com a codificação das <i><b>tags</b></i>, que são os comandos desta linguagem",
     "datapost": "12 de Abril de 2021",
-    "image":"img/img-html.png",
+    "image": "img/img-html.png",
     "autor": "Severino Neto"
   },
   {
     "title": "CSS3",
     "text": "Conteúdo do segundo bimestre, foi mostrado desde a seleção de elementos <b>HTML</b> até o manipulamento dos mesmo com os comandos da tecnologia. Essa tecnologia foi criada para deixar a parte visual do site muito mais atraente já que somente o <b>HTML</b> é somente o esqueleto da nossa página",
     "datapost": "11 de Abril de 2021",
-    "image":"img/img-css.png",
+    "image": "img/img-css.png",
     "autor": "Severino Neto"
   },
   {
     "title": "JavaScript",
     "text": "O <b>JavaScript</b> em um site, é o responsável por dar todas as interatividades no mesmo, sendo que ele é a única tecnologia a ser também uma linguagem de programação dentre todas as tecnologias apresentadas na disciplina",
     "datapost": "10 de Abril de 2021",
-    "image":"img/img-js.png",
+    "image": "img/img-js.png",
     "autor": "Severino Neto"
   },
   {
     "title": "Jquery",
     "text": "Uma das bobliotecas JS mais utilizadas, o Jquery tem como função ajudar no desenvolvimento de sites, facilitando a manipulação do <b>Document Object Model (DOM)</b>. Esse foi um conteúdo extra da disciplina",
     "datapost": "09 de Abril de 2021",
-    "image":"img/img-jquery.png",
+    "image": "img/img-jquery.png",
     "autor": "Severino Neto"
   },
   {
     "title": "Bootstrap",
     "text": "<b>Bootstrap</b> é um <i>framework</i> para a internet <b>open-source</b> que nos auxilia na construção de sites responsivos com sua abordagem <u>mobile first</u>. Ele possue um conjunto de códigos <b>CSS</b> e <b>JS</b> que fazem o estilo e ações de vários componentes do mesmo, deixando somente que o programador escolha as classes com aquelas ações e estilos",
     "datapost": "08 de Abril de 2021",
-    "image":"img/img-bootstrap-5-1.png",
+    "image": "img/img-bootstrap-5-1.png",
     "autor": "Severino Neto"
   }
 ]
