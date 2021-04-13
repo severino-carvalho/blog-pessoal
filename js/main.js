@@ -1,7 +1,7 @@
 // Script JS
 
-//const apiURL = "https://oh-netin.github.io/blog-pessoal/json/posts.json";
-const apiURL = "http://127.0.0.1:53159/json/posts.json";
+const apiURL = "https://oh-netin.github.io/blog-pessoal/json/posts.json";
+//const apiURL = "http://127.0.0.1:53159/json/posts.json";
 
 $(document).ready(function () {
 
