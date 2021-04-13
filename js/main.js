@@ -61,5 +61,3 @@ $(document).ready(function () {
         indiceInicio += quantidade
     }
 });
-
-
