@@ -34,7 +34,7 @@ $(document).ready(function () {
 
             var bodyParagraph = $("<p>");
             bodyParagraph.addClass("card-text");
-            bodyParagraph.text(post.text + "...");
+            bodyParagraph.html(post.text + "...");
 
             var bodyLink = $("<a>");
             bodyLink.addClass("btn btn-primary");
