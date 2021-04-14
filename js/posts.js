@@ -11,6 +11,7 @@ function requisicaoPost() {
 
 function carregarPost(dados) {
     let id = Number(dados[postID - 1].id) - 1;
+    console.log(id);
 
     document.title = "Conteúdo - " + dados[id].title;
 
