@@ -1,7 +1,7 @@
 // Script JS
 
-const apiURL = "https://oh-netin.github.io/blog-pessoal/json/posts.json";
-//const apiURL = "http://127.0.0.1:53159/json/posts.json";
+//const apiURL = "https://oh-netin.github.io/blog-pessoal/json/posts.json";
+const apiURL = "http://127.0.0.1:54640//json/posts.json";
 
 $(document).ready(function () {
 
@@ -40,7 +40,7 @@ $(document).ready(function () {
             var bodyLink = $("<a>");
             $(bodyLink).addClass("btn btn-primary");
             $(bodyLink).html("Leia Mais &rarr;");
-            $(bodyLink).attr("href", "post.html?id=");
+            $(bodyLink).attr("href", "html/posts.html?id=" +post.id);
 
             $(bodyDiv).append(bodyHeader);
             $(bodyDiv).append(bodyParagraph);
