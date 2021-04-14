@@ -15,6 +15,8 @@ function carregarPost(dados) {
 
     document.title = "Conteúdo - " + dados[id].title;
 
+    $("#postAtivo").text(dados[id].title)
+
     $("#postTitulo").text(dados[id].title);
 
     $("#postSubTitulo").text(dados[id].title);
