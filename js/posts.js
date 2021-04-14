@@ -19,7 +19,7 @@ function carregarPost(dados) {
 
     $("#postSubTitulo").text(dados[id].title);
 
-    $("#postImage").attr("src", "/" + dados[id].image);
+    $("#postImage").attr("src", "../" + dados[id].image);
 
     $("#postDataPublicacao").text("Postado em " + dados[id].datapost);
 
