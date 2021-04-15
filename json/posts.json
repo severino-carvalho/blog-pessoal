@@ -18,7 +18,7 @@
   {
     "id": "3",
     "title": "JavaScript",
-    "text": "O <b>JavaScript</b> em um site, é o responsável por dar todas as interatividades no mesmo, sendo que ele é a única tecnologia a ser também uma linguagem de programação dentre todas as tecnologias apresentadas na disciplina",
+    "text": "<h4>Sobre JavaScript: </h4> <b>JavaScript</b> é uma linguagem de programação que permite a você implementar itens complexos em páginas web. Toda vez que uma página da web faz mais do que simplesmente mostrar a você informação estática, mostrando conteúdo que se atualiza em um intervalo de tempo, mapas interativos ou gráficos 2D/3D animados, etc, você pode apostar que o <b>JavaScript</b> provavelmente está envolvido. É a terceira camada do bolo das tecnologias padrões da web, duas das quais <b>(HTML e CSS)</b> nós citamos sobre. <br/><br/> <h4>Na disciplina:</h4> Diante de tudo o que aconteceu por causa da pandêmia, penso eu que foi pouco tempo e conteúdos mostrados sobre uma linguagem de programação tão rica e prazerosa de se trabalhar. Mesmo com tudo isso, foi mostrado o lado do JS que fuinciona ao lado do cliente, nas páginas web que serão renderizadas pelos browsers de quem acessa. <br/> <h5>Assuntos:</h5> <ul><li>Tipos primitivos</li><li>Manipulação de dados</li><li>Functions</li><li>Arrow Functions</li></ul>",
     "datapost": "10 de Abril de 2021",
     "image": "img/img-js.png",
     "autor": "Severino Neto"
