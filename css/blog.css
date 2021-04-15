@@ -26,10 +26,10 @@ body {
   /* --border-size: 0.5rem;
   --size: calc(var(--border-size) * 2);
   --color: rgb(228, 228, 228); */
-  border-left: 0.5rem solid rgb(180, 180, 180);
-  border-bottom: 0.5rem solid rgb(180, 180, 180);
-  width: 1.5rem;
-  height: 1.5rem;
+  border-left: 0.35rem solid rgb(180, 180, 180);
+  border-bottom: 0.35rem solid rgb(180, 180, 180);
+  width: 1.25rem;
+  height: 1.25rem;
   transform: rotate(-45deg);
 }
 
@@ -42,10 +42,10 @@ body {
   /* --border-size: 0.5rem;
   --size: calc(var(--border-size) * 2);
   --color: rgb(228, 228, 228); */
-  border-left: 0.5rem solid rgb(180, 180, 180);
-  border-bottom: 0.5rem solid rgb(180, 180, 180);
-  width: 1.5rem;
-  height: 1.5rem;
+  border-left: 0.35rem solid rgb(180, 180, 180);
+  border-bottom: 0.35rem solid rgb(180, 180, 180);
+  width: 1.25rem;
+  height: 1.25rem;
   transform: rotate(-45deg);
 }
 
