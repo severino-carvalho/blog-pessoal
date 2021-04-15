@@ -17,6 +17,64 @@ body {
   padding: 5px;
 }
 
+#header-categoria {
+  display: flex;
+  justify-content: space-between;
+}
+
+#arrowCateg {
+  /* --border-size: 0.5rem;
+  --size: calc(var(--border-size) * 2);
+  --color: rgb(228, 228, 228); */
+  border-left: 0.5rem solid rgb(180, 180, 180);
+  border-bottom: 0.5rem solid rgb(180, 180, 180);
+  width: 1.5rem;
+  height: 1.5rem;
+  transform: rotate(-45deg);
+}
+
+#header-autor {
+  display: flex;
+  justify-content: space-between;
+}
+
+#arrowAutor {
+  /* --border-size: 0.5rem;
+  --size: calc(var(--border-size) * 2);
+  --color: rgb(228, 228, 228); */
+  border-left: 0.5rem solid rgb(180, 180, 180);
+  border-bottom: 0.5rem solid rgb(180, 180, 180);
+  width: 1.5rem;
+  height: 1.5rem;
+  transform: rotate(-45deg);
+}
+
+.arrowAnimationUp {
+  animation: animaArrowUp 700ms ease-in-out forwards;
+}
+
+.arrowAnimationDown {
+  animation: animaArrowDown 700ms ease-in-out forwards;
+}
+
+@keyframes animaArrowUp {
+  from {
+    transform: rotate(-45deg);
+  }
+  to {
+    transform: rotate(45deg);
+  }
+}
+
+@keyframes animaArrowDown {
+  from {
+    transform: rotate(45deg);
+  }
+  to {
+    transform: rotate(-45deg);
+  }
+}
+
 @media (min-width: 992px) {
   body {
     padding-top: 56px;
