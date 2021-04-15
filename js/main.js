@@ -1,7 +1,7 @@
 // Script JS
 
 const apiURL = "https://oh-netin.github.io/blog-pessoal/json/posts.json";
-//const apiURL = "http://127.0.0.1:55595/json/posts.json"
+//const apiURL = "http://127.0.0.1:50432//json/posts.json"
 
 function carregarResumoPost(posts, indiceInicio, quantidade) {
     posts.map((post) => post.text = post.text.slice(0, 300));
@@ -72,14 +72,26 @@ function carregarLinks(dados) {
     });
 }
 
+function animaArrowCategoria() {
+    $("#arrowCateg").toggleClass("arrowAnimationUp");
+    $("#arrowCateg").toggleClass("arrowAnimationDown");
+}
+
+function animaArrowAutor() {
+    $("#arrowAutor").toggleClass("arrowAnimationUp");
+    $("#arrowAutor").toggleClass("arrowAnimationDown");
+}
+
 $(document).ready(function () {
 
     $("#header-categoria").click(function () {
         $("#body-categoria").slideToggle(700);
+        animaArrowCategoria();
     });
 
     $("#header-autor").click(function () {
-        $("#body-autor").slideToggle(1000);
+        $("#body-autor").slideToggle(700);
+        animaArrowAutor();
     });
 
     requisicaoLink();
