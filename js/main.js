@@ -1,7 +1,7 @@
 // Script JS
 
-const apiURL = "https://oh-netin.github.io/blog-pessoal/json/posts.json";
-//const apiURL = "http://127.0.0.1:50432//json/posts.json"
+//const apiURL = "https://oh-netin.github.io/blog-pessoal/json/posts.json";
+const apiURL = "http://127.0.0.1:59027//json/posts.json"
 
 function carregarResumoPost(posts, indiceInicio, quantidade) {
     posts.map((post) => post.text = post.text.slice(0, 300));
@@ -24,6 +24,7 @@ function carregarResumoPost(posts, indiceInicio, quantidade) {
         $(bodyHeader).text(post.title);
 
         var bodyParagraph = $("<p>");
+        $(bodyParagraph).addClass("card-text");
         $(bodyParagraph).addClass("card-text");
         $(bodyParagraph).html(post.text + "...");
 
