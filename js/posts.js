@@ -1,7 +1,7 @@
 // Script JS
 
-const apiURL = "https://oh-netin.github.io/blog-pessoal/json/posts.json";
-//const apiURL = "http://127.0.0.1:50432//json/posts.json"
+//const apiURL = "https://oh-netin.github.io/blog-pessoal/json/posts.json";
+const apiURL = "http://127.0.0.1:59027//json/posts.json"
 const postID = new URLSearchParams(window.location.search).get("id");
 
 // Faz as requisições dos posts usando JQuery
@@ -32,8 +32,10 @@ function carregarPost(dados) {
     $("#postImage").attr("src", "../" + dados[id].image);
 
     $("#postDataPublicacao").text("Postado em " + dados[id].datapost);
-
-    $("#postConteudo").append("<p>" + dados[id].text + "</p>");
+    let paragraph = $("<p>");
+    $(paragraph).addClass("text-justify");
+    $(paragraph).html(dados[id].text);
+    $("#postConteudo").append(paragraph);
 }
 
 // Faz as requisições dos links usando JQuery
