@@ -1,7 +1,7 @@
 // Script JS
 
-//const apiURL = "https://oh-netin.github.io/blog-pessoal/json/posts.json";
-const apiURL = "http://127.0.0.1:50749//json/posts.json"
+const apiURL = "https://oh-netin.github.io/blog-pessoal/json/posts.json";
+//const apiURL = "http://127.0.0.1:50749//json/posts.json"
 
 function carregarResumoPost(posts, indiceInicio, quantidade) {
     posts.map((post) => post.text = post.text.slice(0, 300));

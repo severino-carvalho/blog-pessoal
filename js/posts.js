@@ -1,7 +1,7 @@
 // Script JS
 
-//const apiURL = "https://oh-netin.github.io/blog-pessoal/json/posts.json";
-const apiURL = "http://127.0.0.1:50749//json/posts.json"
+const apiURL = "https://oh-netin.github.io/blog-pessoal/json/posts.json";
+//const apiURL = "http://127.0.0.1:50749//json/posts.json"
 const postID = new URLSearchParams(window.location.search).get("id");
 
 // Faz as requisições dos posts usando JQuery
@@ -58,16 +58,17 @@ function carregarLinks(dados) {
     });
 }
 
+// Faz a animação da aba categoria
 function animaArrowCategoria() {
     $("#arrowCateg").toggleClass("arrowAnimationUp");
     $("#arrowCateg").toggleClass("arrowAnimationDown");
 }
-
+// Faz a animação da aba autor
 function animaArrowAutor() {
     $("#arrowAutor").toggleClass("arrowAnimationUp");
     $("#arrowAutor").toggleClass("arrowAnimationDown");
 }
-
+// Chama a ação da animação da aba categoria
 function efeitos() {
     $("#header-categoria").click(function () {
         $("#body-categoria").slideToggle(700);
