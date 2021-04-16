@@ -11,6 +11,7 @@ para poder visualizar o meu blog pessoal
 - HTML
 - CSS
 - JavaScript
+- JSON
 - Bootstrap v4.1.1
 - Jquery v3.3.1
 ```
