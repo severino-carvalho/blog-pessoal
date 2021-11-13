@@ -1,6 +1,6 @@
 // Script JS
 
-const apiURL = "https://oh-netin.github.io/blog-pessoal/json/posts.json";
+const apiURL = "https://severino-carvalho.github.io/blog-pessoal/json/posts.json";
 //const apiURL = "http://127.0.0.1:50749//json/posts.json"
 const postID = new URLSearchParams(window.location.search).get("id");
 
