@@ -2,7 +2,7 @@
 
 Repositório criado afim de ter uma boa nota em Projeto Integrador(PI), e ao mesmo tempo treinar meus conhecimentos como dev front-end
 para poder visualizar o meu blog pessoal
-[**clique aqui**](https://https://severino-carvalho.github.io/blog-pessoal/index.html) 
+[**clique aqui**](https://severino-carvalho.github.io/blog-pessoal/index.html) 
 
 ----------
 ### Tecnologias utilizadas :D
