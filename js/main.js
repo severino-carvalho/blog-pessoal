@@ -1,6 +1,6 @@
 // Script JS
 
-const apiURL = "https://severino-carvapho.github.io/blog-pessoal/json/posts.json";
+const apiURL = "https://severino-carvalho.github.io/blog-pessoal/json/posts.json";
 //const apiURL = "http://127.0.0.1:50749//json/posts.json"
 
 function carregarResumoPost(posts, indiceInicio, quantidade) {
